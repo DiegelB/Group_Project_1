@@ -95,7 +95,7 @@ double getDepartArriveTime() {
             hours = hours + 1;
             cout << hours << endl;
         }
-    }//----------------------------------------------------------------------------------
+    }//------------------------------------AM/PM-Seperator----------------------------------------------
     else if(userInput == 'P'){
         // if the user wants to enter an PM time
         cout << "\nPlease enter the hour that you departed/arrived.\n"
